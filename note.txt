@@ -1,0 +1,4 @@
+please check this carefully
+1. add "weights/craft_mlt_25k.pth" to the "craft" folder
+2. download model "en_number_mobile_v2.0_rec" from "https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.2/doc/doc_en/models_list_en.md"
+ then add "en_number_mobile_v2.0_rec_infer" to the "inference" folder

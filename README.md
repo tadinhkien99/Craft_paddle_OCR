@@ -1,1 +1,2 @@
-# Craft_paddle_OCR
+# ocr-api
+This is OCR class function, combine CRAFT vs PADDLE

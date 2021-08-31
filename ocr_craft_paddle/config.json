@@ -1,0 +1,31 @@
+{
+  "path_output": "result",
+  "craft": {
+    "trained_model": "ocr/craft/weights/craft_mlt_25k.pth",
+    "text_threshold": 0.7,
+    "low_text": 0.4,
+    "link_threshold": 0.4,
+    "cuda": false,
+    "canvas_size": 1280,
+    "mag_ratio": 1.5,
+    "poly": false,
+    "show_time": false,
+    "test_folder": "craft/data/",
+    "refine": false,
+    "refiner_model": "weights/craft_refiner_CTW1500.pth"
+  },
+  "paddle": {
+    "use_gpu": false,
+    "ir_optim": true,
+    "use_tensorrt": false,
+    "use_fp16": false,
+    "gpu_mem": 500,    
+    "rec_model_dir": "inference/en_number_mobile_v2.0_rec_infer/",
+    "rec_image_shape": "3, 32, 320",
+    "rec_batch_num": 8,
+    "max_text_length": 25,
+    "rec_char_dict_path": "ocr/paddle/dict/en_dict.txt",
+    "use_space_char": true,
+    "drop_score": 0.6
+  }
+}
